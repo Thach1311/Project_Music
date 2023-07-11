@@ -1,0 +1,44 @@
+
+.fa-music{
+
+}
+.left__logo{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 35px;
+    padding-top: 20px;
+}
+.topMusic{
+    display: flex;
+    align-items: center;
+}
+.topMusic__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.3s;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+.topMusic_listMusic{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 43px;
+    width: 430px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.topMusic__listMusic--infor p:first-child{
+    font-weight: 800;
+}
+.topMusic__listMusic--infor p:nth-child(2){
+    margin-top: -15px;
+}
+.fa-heart{
+    margin-left: 10px;
+    margin-right: 10px;
+}
