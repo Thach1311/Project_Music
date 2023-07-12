@@ -6,6 +6,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0;
+    font-family: math;
 }
 .appMusic{
     height: 100%;
@@ -49,4 +50,8 @@ body{
     position: fixed;
     left: 0;
     bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

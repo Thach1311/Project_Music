@@ -8,6 +8,15 @@
     margin-right: 35px;
     padding-top: 20px;
 }
+
+.topMusic__img{
+ 
+   width: 100%;
+   height: auto;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
 .topMusic{
     display: flex;
     align-items: center;
@@ -24,6 +33,17 @@
     margin-left: 20px;
     display: flex;
     align-items: center;
+    height: 43px;
+    width: 430px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.topMusic_listMusic:hover{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
     background-color: #fff;
     height: 43px;
     width: 430px;
@@ -32,6 +52,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 .topMusic__listMusic--infor p:first-child{
     font-weight: 800;
 }
@@ -41,4 +62,48 @@
 .fa-heart{
     margin-left: 10px;
     margin-right: 10px;
+}
+.footerApp__form1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.seekbar{
+    width: 50%;
+    height: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.footerApp__form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerApp__form2 div{
+    margin:10px;
+    
+}
+
+.btn-toggle-play{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(5, 165, 67);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.player .fa-pause{
+    display: none;
+}
+
+.playing .fa-play{
+    display: none;
+}
+.playing .fa-pause{
+    display: block;
 }
