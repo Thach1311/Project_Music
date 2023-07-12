@@ -39,8 +39,10 @@
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
 }
-.topMusic_listMusic:hover{
+.topMusic_listMusic.active{
     margin-left: 20px;
     display: flex;
     align-items: center;
@@ -51,8 +53,23 @@
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+   
 }
 
+.topMusic_listMusic:hover{
+    opacity: 0.6;
+}
+.topMusic_listMusic.active > .iconwageGif{
+    background-image: url(/image/wave.gif);
+    height: 43px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+}
 .topMusic__listMusic--infor p:first-child{
     font-weight: 800;
 }
@@ -63,6 +80,9 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+
 .footerApp__form1{
     display: flex;
     justify-content: center;
@@ -105,5 +125,19 @@
     display: none;
 }
 .playing .fa-pause{
+    display: block;
+}
+
+.fa-heart .active{
+    color: red;
+}
+
+.fa-solid.fa-heart{
+   
+    color: rgb(203, 203, 203);
+
+}
+.fa-solid.fa-heart.active{
+    color: red;
     display: block;
 }
