@@ -78,7 +78,7 @@
     opacity: 0.6;
 }
 .topMusic_listMusic.active > .iconwageGif{
-    background-image: url(/image/wave.gif);
+    background-image: url(../image/wave.gif);
     height: 43px;
     width: 40px;
     background-repeat: no-repeat;
