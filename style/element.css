@@ -1,0 +1,158 @@
+
+.fa-music{
+
+}
+.left__logo{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 35px;
+    padding-top: 20px;
+}
+
+.topMusic__img{
+ 
+   width: 100%;
+   height: auto;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+.topMusic{
+    display: flex;
+    align-items: center;
+}
+.topMusic__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.3s;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+}
+.topMusic_listMusic{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 43px;
+    width: 430px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topMusic_listMusic.active{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 43px;
+    width: 430px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+.topMusic_listMusic.none{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 43px;
+    width: 430px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(0, 0, 0,0.0)
+}
+
+.topMusic_listMusic:hover{
+    opacity: 0.6;
+}
+.topMusic_listMusic.active > .iconwageGif{
+    background-image: url(/image/wave.gif);
+    height: 43px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+}
+.topMusic__listMusic--infor p:first-child{
+    font-weight: 800;
+}
+.topMusic__listMusic--infor p:nth-child(2){
+    margin-top: -15px;
+}
+.fa-heart{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.footerApp__form1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.seekbar{
+    width: 50%;
+    height: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.footerApp__form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerApp__form2 div{
+    margin:10px;
+    
+}
+
+.btn-toggle-play{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(5, 165, 67);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.player .fa-pause{
+    display: none;
+}
+
+.playing .fa-play{
+    display: none;
+}
+.playing .fa-pause{
+    display: block;
+}
+
+.fa-heart .active{
+    color: red;
+}
+
+.fa-solid.fa-heart{
+   
+    color: rgb(203, 203, 203);
+
+}
+.fa-solid.fa-heart.active{
+    color: red;
+    display: block;
+}
