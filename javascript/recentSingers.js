@@ -14,27 +14,27 @@ var appSongRecent = {
 
             Singer: "Hà Nhi",
             online: "3 minutes ago",
-            avatar: '/image/imgSingerHaNhi/avata.jpg'
+            avatar: './image/imgSingerHaNhi/avata.jpg'
         },
         {
 
             Singer: "Trung Quân",
             online: "10 minutes ago",
-            avatar: '/image/imgSingerTrungQuan/avata.jpg'
+            avatar: './image/imgSingerTrungQuan/avata.jpg'
 
         },
         {
 
             Singer: "Phí Phương Anh",
             online: "6 minutes ago",
-            avatar: '/image/imgSingerPhiPhuong/avata.jpg'
+            avatar: './image/imgSingerPhiPhuong/avata.jpg'
 
         },
         {
 
             Singer: "Văn Mai Hương",
             online: "7 minutes ago",
-            avatar: '/image/imgSingerVanMaiHuong/avata.jpg'
+            avatar: './image/imgSingerVanMaiHuong/avata.jpg'
         },
     ],
 

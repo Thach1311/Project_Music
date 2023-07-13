@@ -1,16 +1,14 @@
-.right__recentSinger{
+.right__anotherSongs{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     padding: 20px;
 }
-
-.recentSingers__Form{
+.anotherSongs__Form{
     display: flex;
     flex-direction: column;
 }
-.recentSingers__item{
-  
+.anotherSongs__item{
     margin-bottom: 15px;
     width: 260px;
     height: 40px;
@@ -21,7 +19,7 @@
     border-radius: 15px;
 }
 
-.recentSingers__item:hover{
+.anotherSongs__item:hover{
     background-color: #fff;
     margin-bottom: 20px;
     width: 240px;
@@ -33,7 +31,7 @@
     border-radius: 15px;
 }
 
-.recentSingers__item.active{
+.anotherSongs__item.active{
     background-color: #fff;
     margin-bottom: 20px;
     width: 240px;
@@ -45,7 +43,9 @@
     border-radius: 15px;
 }
 
-.recentSingers__imgHaNhi{
+
+
+.anotherSongs__imgNother{
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -53,44 +53,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.recentSingers__imgTrungQuan{
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-image: url('/image/imgSingerTrungQuan/avata.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.recentSingers__imgPhiPhuongAnh{
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-image: url('/image/imgSingerPhiPhuong/avata.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.recentSingers__imgVanMaiHuong{
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-image: url('/image/imgSingerVanMaiHuong/avata.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.recentSinger__inforSinger{
+.anotherSongs__inforSinger{
     margin-left: 10px;
+
 }
-.listMusic__OfSingerGif img{
+.another__gifMusic {
     width: 30px;
-    margin-left: 30px;
-}
-.listMusic__OfSingerGif{
+    height: 30px;
+    margin-left: 60px;
+    background-image: url(/image/wave.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: none;
 }
-.listMusic__OfSingerGif.active{
-
+.another__gifMusic.active{
     display: block;
 }
