@@ -10,8 +10,8 @@ var appSongAnother = {
         {
             NameSong: "Đẫy Xe Bò",
             Singer: "Phương Mỹ Chi",
-            path: "./music/listMusicAnother/Dayxebo.mp3",
-            image: "./image/imgSingerAnother/Dayxebo.jpg",
+            path: "./music/listMusicAnother/DayXeBo.mp3",
+            image: "./image/imgSingerAnother/DayXeBo.jpg",
         },
         {
             NameSong: "Đưa Em Về Nhà",
