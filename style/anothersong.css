@@ -61,7 +61,7 @@
     width: 30px;
     height: 30px;
     margin-left: 60px;
-    background-image: url(./image/wave.gif);
+    background-image: url(/image/wave.gif);
     background-repeat: no-repeat;
     background-size: cover;
     display: none;
