@@ -15,6 +15,8 @@ const timeMusic = $(".timeMusic")
 const topMusic__formList = $(".topMusic__formList")
 const heart = $(".fa-solid.fa-heart")
 
+const right__anotherSongs = $(".right__anotherSongs")
+console.log(right__anotherSongs);
 
 
 var appSong = {
@@ -54,7 +56,7 @@ var appSong = {
 
             return `
                 <div class="topMusic__formList">
-                        <div class="topMusic_listMusic  ${index === this.currentIndex ? 'active' : ''}" data-index="${index}">
+                        <div class="topMusic_listMusic ${index === this.currentIndex ? 'active' : ''}" data-index="${index}">
                             <div style="display: flex;">
                                 <div style="display: flex;align-items: center;">
                                     <div>${index + 1}</div>
@@ -182,6 +184,18 @@ var appSong = {
 
         }
 
+        right__anotherSongs.onclick = function () {
+
+            console.log("right");
+                const topMusic_listMusic = $(".topMusic_listMusic")
+                const iconwageGif = $(".iconwageGif")
+                topMusic_listMusic.classList.add("not")
+                iconwageGif.classList.add("not")
+           
+
+        }
+
+       
     },
 
 

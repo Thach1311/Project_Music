@@ -156,3 +156,9 @@
     color: red;
     display: block;
 }
+.iconwageGif.not{
+    display: none;
+}
+.topMusic_listMusic.not{
+    background-color: rgb(0,0,0,0.0);
+}

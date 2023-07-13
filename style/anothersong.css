@@ -69,3 +69,10 @@
 .another__gifMusic.active{
     display: block;
 }
+
+.another__gifMusic.not{
+    display: none;
+}
+.anotherSongs__item.not{
+    background: rgb(0, 0, 0,0.0);
+}

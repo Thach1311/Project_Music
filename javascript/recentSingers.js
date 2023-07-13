@@ -81,7 +81,7 @@ var appSongRecent = {
                 // recentSingers__item.classList.add("active")
                 console.log(songNode);
                 console.log(_this.currentIndex);
-
+                
                 if (_this.currentIndex == 0) {
 
                     console.log("ha nhi");
@@ -91,14 +91,14 @@ var appSongRecent = {
 
                     var appSongHaNhi = {
                         isPlaying: false,
-                        currentIndex: 0,
+                        currentIndex: -1,
                         arrSongRecentHaNhi: [
 
                             {
-                                NameSong: "Vì Em Chưa Bao Giờ Khóc",
+                                NameSong: "Chưa Quên Người Yêu Cũ",
                                 Singer: "Hà Nhi, A.C Xuân Tài",
-                                path: "./music/viemchuabaogiokhoc.mp3",
-                                image: "./image/viemchuabaogiokhoc_author.jpg",
+                                path: "./music/listMusicHaNhi/ChuaQuenNguoiYeuCu.mp3",
+                                image: "./image/imgSingerHaNhi/ChuaQuenNguoiYeuCu.jpg",
                             },
                             {
                                 NameSong: "Dĩ Vãng Nhạt Nhòa",
@@ -169,7 +169,7 @@ var appSongRecent = {
 
                         start: function () {
                             this.definePropertiesHaNhi()
-                            this.loadCurrentSongHaNhi()
+                            // this.loadCurrentSongHaNhi()
                             this.eventTopSongSingerHaNhi()
                             this.renderHaNhi()
                         }
@@ -177,7 +177,7 @@ var appSongRecent = {
                     appSongHaNhi.start()
 
 
-                    audio.play()
+                    // audio.play()
 
                 }
                 else if (_this.currentIndex == 1) {
@@ -188,12 +188,12 @@ var appSongRecent = {
 
                     var appSongTrungQuan = {
                         isPlaying: false,
-                        currentIndex: 0,
+                        currentIndex: -1,
                         arrSongRecentTrungQuan: [
                             {
-                                NameSong: "Mưa Tháng Sáu",
-                                path: "./music/muathangsau.mp3",
-                                image: "./image/muathangsau_author.jpg",
+                                NameSong: "Tình Nào Không Như Tình Đầu",
+                                path: "./music/listMusicTrungQuan/TinhNaoKhongNhuTinhDau.mp3",
+                                image: "./image/imgSingerTrungQuan/TinhNaoKhongNhuTinhDau.jpg",
                             },
                             {
                                 NameSong: "Những Ngày Mưa Cô Đơn",
@@ -261,7 +261,7 @@ var appSongRecent = {
 
                         start: function () {
                             this.definePropertiesTrungQuan()
-                            this.loadCurrentSongTrungQuan()
+                            // this.loadCurrentSongTrungQuan()
                             this.eventTopSongSingerTrungQuan()
                             this.renderTrungQuan()
                         }
@@ -269,7 +269,7 @@ var appSongRecent = {
                     appSongTrungQuan.start()
 
 
-                    audio.play()
+                    // audio.play()
 
 
                 }
@@ -281,13 +281,12 @@ var appSongRecent = {
 
                     var appSongPhiPhuong = {
                         isPlaying: false,
-                        currentIndex: 0,
+                        currentIndex: -1,
                         arrSongPhiPhuong: [
                             {
-                                NameSong: "Răng Khôn",
-                                Singer: "Phí Phương Anh, RIN9",
-                                path: "./music/rangkhon.mp3",
-                                image: "./image/rangkhon_author.jpg",
+                                NameSong: "Buồn Không Thể Buông",
+                                path: "./music/listMusicPhiPhuong/BuonKhongTheBuong.mp3",
+                                image: "./image/imgSingerPhiPhuong/BuonKhongTheBuong.jpg",
                             },
                             {
                                 NameSong: "Cánh Bướm Dối Gian",
@@ -357,14 +356,14 @@ var appSongRecent = {
 
                         start: function () {
                             this.definePropertiesPhiPhuong()
-                            this.loadCurrentSongPhiPhuong()
+                            // this.loadCurrentSongPhiPhuong()
                             this.eventTopSongSingerPhiPhuong()
                             this.renderPhiPhuong()
                         }
                     }
                     appSongPhiPhuong.start()
 
-                    audio.play()
+                    // audio.play()
 
 
                 }
@@ -376,13 +375,12 @@ var appSongRecent = {
 
                     var appSongVanMaiHuong = {
                         isPlaying: false,
-                        currentIndex: 0,
+                        currentIndex: -1,
                         arrSongVanMaiHuong: [
                             {
-                                NameSong: "Tình Lãng Phí",
-                                Singer: "Văn Mai Hương",
-                                path: "./music/tinhlangphi.mp3",
-                                image: "./image/tinhlangphi_author.jpg",
+                                NameSong: "Rồi Mình Sẽ Gặp Nhau",
+                                path: "./music/listMusicVanMaiHuong/RoiMinhSeGapNhau.mp3",
+                                image: "./image/imgSingerVanMaiHuong/RoiMinhSeGapNhau.jpg",
                             },
                             {
                                 NameSong: "Cầu Hôn",
@@ -452,7 +450,7 @@ var appSongRecent = {
 
                         start: function () {
                             this.definePropertiesVanMaiHuong()
-                            this.loadCurrentSongVanMaiHuong()
+                            // this.loadCurrentSongVanMaiHuong()
                             this.eventTopSongSingerVanMaiHuong()
                             this.renderVanMaiHuong()
                         }
@@ -460,7 +458,7 @@ var appSongRecent = {
                     appSongVanMaiHuong.start()
 
 
-                    audio.play()
+                    // audio.play()
 
                 }
             }
