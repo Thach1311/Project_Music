@@ -1,0 +1,95 @@
+.right__recentSinger{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+}
+.recentSingers__Form{
+    display: flex;
+    flex-direction: column;
+}
+.recentSingers__item{
+  
+    margin-bottom: 20px;
+    width: 260px;
+    height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.recentSingers__item:hover{
+    background-color: #fff;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.recentSingers__item.active{
+    background-color: #fff;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.recentSingers__imgHaNhi{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    /* background-image: url('/image/imgSingerHaNhi/avata.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recentSingers__imgTrungQuan{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: url('/image/imgSingerTrungQuan/avata.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recentSingers__imgPhiPhuongAnh{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: url('/image/imgSingerPhiPhuong/avata.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recentSingers__imgVanMaiHuong{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: url('/image/imgSingerVanMaiHuong/avata.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recentSinger__inforSinger{
+    margin-left: 10px;
+}
+.listMusic__OfSingerGif img{
+    width: 30px;
+    margin-left: 30px;
+}
+.listMusic__OfSingerGif{
+    display: none;
+}
+.listMusic__OfSingerGif.active{
+
+    display: block;
+}
