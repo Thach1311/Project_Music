@@ -14,7 +14,11 @@ const topMusic_listMusic = $(".topMusic_listMusic")
 const timeMusic = $(".timeMusic")
 const topMusic__formList = $(".topMusic__formList")
 const heart = $(".fa-solid.fa-heart")
+const btnRandom = document.querySelector(".playerBar__item-shuffle")
+console.log(btnRandom);
 
+const btnRepeat = document.querySelector(".playerBar__item-repeat")
+console.log(btnRepeat);
 const right__anotherSongs = $(".right__anotherSongs")
 console.log(right__anotherSongs);
 
@@ -22,6 +26,8 @@ console.log(right__anotherSongs);
 var appSong = {
     isPlaying: false,
     currentIndex: 0,
+    isRandom : false,
+    isRepeat : false,
     arrSong: [
         {
             NameSong: "Vì Em Chưa Bao Giờ Khóc",
@@ -123,6 +129,15 @@ var appSong = {
         console.log(this.currentIndex);
     },
 
+    playRandomSong: function(){
+        let newIndex
+        do{
+            newIndex = Math.floor(Math.random() * this.arrSong.length)
+        }while(newIndex === this.currentIndex)
+        this.currentIndex = newIndex
+        this.loadCurrentSong()
+    },
+
     handEvent: function () {
         const _this = this
         btnPlay.onclick = function () {
@@ -160,12 +175,25 @@ var appSong = {
         }
 
         btn_nextSong.onclick = function () {
-            _this.nextSong()
+            if (_this.isRandom){
+                _this.playRandomSong()
+            }
+            else{
+
+                _this.nextSong()
+            }
             audio.play()
             _this.render()
         }
         btn_backSong.onclick = function () {
-            _this.backSong()
+            if (_this.isRandom){
+                _this.playRandomSong()
+            }
+            else{
+
+                _this.backSong()
+            }
+
             audio.play()
             _this.render()
 
@@ -196,6 +224,31 @@ var appSong = {
         }
 
        
+        // random
+        btnRandom.onclick = function(e){
+            _this.isRandom = ! _this.isRandom 
+            btnRandom.classList.toggle("active",_this.isRandom)
+
+           
+        }
+
+       
+
+        btnRepeat.onclick = function(e){
+            _this.isRepeat = !  _this.isRepeat 
+            btnRepeat.classList.toggle("active", _this.isRepeat)
+        }
+
+
+        audio.onended = function(){
+            if (_this.isRepeat){
+                audio.play()
+            }
+            else{
+                btn_nextSong.click()
+            }
+        }
+
     },
 
 

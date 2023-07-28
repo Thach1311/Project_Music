@@ -127,7 +127,7 @@
 .btn-toggle-play{
     width: 40px;
     height: 40px;
-    background-color: rgb(5, 165, 67);;
+    background-color: rgb(5, 165, 67);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,4 +164,12 @@
 }
 .topMusic_listMusic.not{
     background-color: rgb(0,0,0,0.0);
+}
+
+.playerBar__item-repeat.active{
+    color: rgb(5, 165, 67);
+}
+
+.playerBar__item-shuffle.active{
+    color: rgb(5, 165, 67);
 }
