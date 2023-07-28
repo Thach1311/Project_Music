@@ -9,6 +9,8 @@
   position: fixed;
   z-index: 1;
   /* display: none; */
+  /* display: none; */
+
 }
 .loader {
   display: flex;
